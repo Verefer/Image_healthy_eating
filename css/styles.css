@@ -54,16 +54,13 @@ body {
 
 /* Футер */
 .footer {
-    background: #333; /* Цвет фона */
+    background: rgb(110, 110, 110); /* Цвет фона */
     width: 99%; /* Ширина блока */
-    height: 0 auto; /* Высота блока */
+    height: auto; /* Высота блока */
     margin: 5px;
-    text-align: center;
     border-radius: 10px;
-}
-
-.footer p {
-    color: #ccc;
+    padding: 5px;
+    box-sizing: border-box; /* Учитывать padding и border в общей ширине */
 }
 
 /* Стили для контактов */
@@ -86,4 +83,8 @@ body {
 
 .contact a:hover {
     color: red;
+}
+
+#clear {
+    clear: both; /* Запрещает обтекание элемента слева и справа */
 }
