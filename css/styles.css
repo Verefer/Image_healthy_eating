@@ -1,22 +1,19 @@
 /* Основные стили */
 body {
-    background: #dddddd; /* Цвет фона */
     color: rgb(34, 34, 34); /* Цвет текста */
     font-family: Arial, sans-serif; /* Шрифт */
     font-size: 14px; /* Размер шрифта */
     margin: 0;
     padding: 0;
+    text-align: center;
 }
 
 /* Шапка */
 .header {
-    display: flex; /* Используем flexbox для размещения элементов внутри шапки */
-    align-items: center; /* Выравниваем элементы по вертикали */
     background-color: #666;
     text-align: center;
     padding: 15px;
     border-radius: 10px; /* Скругляем углы на 10 пикселей */
-    box-sizing: border-box; /* Учитывать padding и border в общей ширине */
 }
 
 
@@ -56,21 +53,11 @@ body {
     margin-top: 20px;
 }
 
-
-/* Изображения */
-.image {
-    text-align: center; /* Центрирование изображения по горизонтали */
-}
-
-.image img {
-    border-radius: 10px; /* Радиус скругления углов */
-}
-
 /* Футер */
 .footer {
     background: #333; /* Цвет фона */
-    width: 100%; /* Ширина блока */
-    height: auto; /* Высота блока */
+    width: 99%; /* Ширина блока */
+    height: 0 auto; /* Высота блока */
     margin: 5px;
     text-align: center;
     border-radius: 10px;
