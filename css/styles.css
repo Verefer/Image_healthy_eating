@@ -48,19 +48,18 @@ body {
 }
 
 /* Контент */
-#content {
+.content {
     background: rgba(179, 179, 179, 0.5); /* Цвет фона */
-    width: 80%; /* Ширина блока */
+    width: 100%; /* Ширина блока */
     height: auto; /* Высота блока */
     float: right; /* Выравнивание по правому краю */
-    border-radius: 10px;
-    text-align: left; /* Выравнивание текста по левой стороне */
+    border-radius: 10px; 
     padding: 15px; /* Отступ от внутренних границ блока */
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
 }
 
 /* Внедренный контент */
-#content iframe {
+.content iframe {
     border-radius: 10px;
     border: 2px solid #ddd;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -68,24 +67,13 @@ body {
     margin-top: 20px;
 }
 
-/* Цитаты */
-blockquote {
-    font-style: italic;
-    border-left: 4px solid rgb(231, 192, 192);
-    margin-left: 0;
-    padding-left: 1em;
-}
-
-blockquote p {
-    margin: 0;
-}
 
 /* Изображения */
-#image {
+.image {
     text-align: center; /* Центрирование изображения по горизонтали */
 }
 
-#image img {
+.image img {
     border-radius: 10px; /* Радиус скругления углов */
 }
 
