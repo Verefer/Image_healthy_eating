@@ -13,39 +13,28 @@ body {
     display: flex; /* Используем flexbox для размещения элементов внутри шапки */
     align-items: center; /* Выравниваем элементы по вертикали */
     background-color: #666;
+    text-align: center;
+    padding: 15px;
     border-radius: 10px; /* Скругляем углы на 10 пикселей */
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
 }
 
-/* Логотип */
-.logo {
-    max-width: 50px; /* Максимальная ширина логотипа */
-    margin-right: 10px; /* Добавляем небольшой отступ между логотипом и текстом */
-    padding-left: 10px;
-}
+
 
 /* Текст в шапке */
-#header-text {
+.header-text {
     flex-grow: 1; /* Растягиваем текстовый блок, чтобы он занимал оставшееся пространство */
 }
 
-#header-text h1 a {
+.header-text h1 a {
     text-decoration: none; /* Убираем подчеркивание */
     color: inherit; /* Наследуем цвет текста от родительского элемента */
 }
 
-#header-text h1 a:hover {
+.header-text h1 a:hover {
     color: inherit; /* При наведении оставляем цвет как у родительского элемента */
 }
 
-/* Контейнер */
-.container {
-    background: #dddddd; /* Цвет фона */
-    margin: 0 auto; /* Внешние отступы (автоматические слева и справа) */
-    text-align: center; /* Выравнивание текста по центру */
-    width: 80%; /* Ширина блока */
-    height: auto; /* Высота блока */
-}
 
 /* Контент */
 .content {
@@ -83,8 +72,9 @@ body {
     width: 100%; /* Ширина блока */
     height: auto; /* Высота блока */
     margin: 5px;
+    text-align: center;
     border-radius: 10px;
-    padding: 5px;
+    padding: 15px;
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
 }
 
