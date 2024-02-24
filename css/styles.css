@@ -1,6 +1,6 @@
 /* Основные стили */
 body {
-    color: rgb(34, 34, 34); /* Цвет текста */
+    color: rgb(255, 255, 255); /* Цвет текста */
     font-family: Arial, sans-serif; /* Шрифт */
     font-size: 14px; /* Размер шрифта */
     margin: 0;
@@ -15,7 +15,7 @@ body {
     padding: 15px;
     margin-block-end: 5px;
     text-shadow: 0 0 22px #ffffff; /*Добaвляем тень(свечение) тексту*/
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 /* Текст в шапке */
@@ -41,7 +41,7 @@ body {
     float: left; /* Выравнивание по левому краю */
     margin-block-end: 5px;
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -53,7 +53,7 @@ body {
     text-shadow: 0 0 22px #ffffff; /*Добaвляем тень(свечение) тексту*/
     padding: 5px;
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
-    box-shadow: 0 0 5px black;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
 
 
@@ -61,6 +61,7 @@ body {
     clear: both; /* Запрещает обтекание элемента слева и справа */
 }
 
-.image {
-    
+img {
+    box-shadow: 0 0 10px rgba(37, 6, 6, 0.8);
+    margin: 4px;
 }
