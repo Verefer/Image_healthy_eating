@@ -15,7 +15,7 @@ body {
     padding: 15px;
     margin-block-end: 5px;
     text-shadow: 0 0 22px #ffffff; /*Добaвляем тень(свечение) тексту*/
-    border-radius: 10px; /* Скругляем углы на 10 пикселей */
+    box-shadow: 0 0 5px black;
 }
 
 /* Текст в шапке */
@@ -39,9 +39,9 @@ body {
     width: 100%; /* Ширина блока */
     height: auto; /* Высота блока */
     float: left; /* Выравнивание по левому краю */
-    border-radius: 10px; 
     margin-block-end: 5px;
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
+    box-shadow: 0 0 5px black;
 }
 
 
@@ -50,14 +50,17 @@ body {
     background: rgba(44, 8, 8, 0.829); /* Цвет фона */
     width: 100%; /* Ширина блока */
     height: auto; /* Высота блока */
-    margin: 5px;
     text-shadow: 0 0 22px #ffffff; /*Добaвляем тень(свечение) тексту*/
-    border-radius: 10px;
     padding: 5px;
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
+    box-shadow: 0 0 5px black;
 }
 
 
 .clear {
     clear: both; /* Запрещает обтекание элемента слева и справа */
+}
+
+.image {
+    
 }
