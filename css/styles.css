@@ -1,6 +1,6 @@
 /* Основные стили */
 body {
-    color: rgb(255, 255, 255); /* Цвет текста */
+    color: rgb(255, 255, 255); /* Цвет текста */;
     font-family: Arial, sans-serif; /* Шрифт */
     font-size: 14px; /* Размер шрифта */
     margin: 0;
@@ -13,9 +13,13 @@ body {
     background: rgba(44, 8, 8, 0.829); /* Цвет фона */
     text-align: center;
     padding: 15px;
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
     margin-block-end: 5px;
     text-shadow: 0 0 22px #ffffff; /*Добaвляем тень(свечение) тексту*/
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-sizing: border-box; /* Учитывать padding и border в общей ширине */
 }
 
 /* Текст в шапке */
@@ -36,10 +40,13 @@ body {
 /* Контент */
 .content {
     background: rgba(179, 179, 179, 0.5); /* Цвет фона */
-    width: 100%; /* Ширина блока */
+    width: 93%; /* Ширина блока */
     height: auto; /* Высота блока */
-    float: left; /* Выравнивание по левому краю */
     margin-block-end: 5px;
+    padding-block-start: 10px;
+    padding-block-end: 10px;
+    margin-left: auto;
+    margin-right: auto;
     box-sizing: border-box; /* Учитывать padding и border в общей ширине */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
 }
@@ -48,7 +55,9 @@ body {
 /* Футер */
 .footer {
     background: rgba(44, 8, 8, 0.829); /* Цвет фона */
-    width: 100%; /* Ширина блока */
+    width: 93%;
+    margin-left: auto;
+    margin-right: auto;
     height: auto; /* Высота блока */
     text-shadow: 0 0 22px #ffffff; /*Добaвляем тень(свечение) тексту*/
     padding: 5px;
